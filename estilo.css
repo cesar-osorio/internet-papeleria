@@ -1,0 +1,12 @@
+ul.horizontal {
+        margin:0;
+        padding:0;
+        }
+ul.horizontal li{
+    display:block;
+    float:left;
+    padding:0 10px;
+    }
+.ecabezado, .contenido, .titulo, .extras, .pie_pagina{
+    border: 2px dashed red;
+}
