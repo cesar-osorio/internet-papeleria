@@ -10,3 +10,14 @@ ul.horizontal li{
 .ecabezado, .contenido, .titulo, .extras, .pie_pagina{
     border: 2px dashed red;
 }
+.contenido{
+  width: 900px;
+  height: 800px;
+  margin-left: 100px;
+}
+.encabezado, .titulo, .pie_pagina{
+  margin-left: 100px;
+}
+p, .titulo, .encabezado, .pie_pagina{
+  padding-left: 50px;
+}
