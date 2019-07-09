@@ -1,5 +1,9 @@
+body{
+  font-family: sans-serif;
+  background-color: lightgray;
+}
 ul.horizontal {
-        margin:0;
+        margin-left: 100px;
         padding:0;
         }
 ul.horizontal li{
@@ -9,15 +13,32 @@ ul.horizontal li{
     }
 .ecabezado, .contenido, .titulo, .extras, .pie_pagina{
     border: 2px dashed red;
+    margin-left: 100px;
 }
 .contenido{
   width: 900px;
   height: 800px;
-  margin-left: 100px;
+  padding-right: 50px;
 }
-.encabezado, .titulo, .pie_pagina{
-  margin-left: 100px;
+.pie_pagina{
+  text-align: center;
+  color: red;
+  height: 30px;
+  width: auto;
+  padding: 10px;
 }
 p, .titulo, .encabezado, .pie_pagina{
   padding-left: 50px;
+}
+img{
+  width: 40%;
+  height: 40%;
+  margin-left: 50px;
+}
+h1{
+  text-align: center;
+  text-transform: capitalize;
+  color: blue;
+  font-family: cursive;
+  font-size: 64px;
 }
