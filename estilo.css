@@ -12,21 +12,22 @@ ul.horizontal li{
     padding:0 10px;
     }
 .ecabezado, .contenido, .titulo, .pie_pagina{
-    border: 2px dashed red;
     margin-left: 100px;
+    border: 1px dashed red;
 }
-.contenido{
-  width: 900px;
-  height: 800px;
-  padding-right: 50px;
-  display: block;
+.descripcion{
+  border: 1px dashed black;
+  width: auto;
+  height: 800;
+  display: inline-block;
+
 }
 .extras{
   width: 250px;
   height: 800px;
-  display: block;
-  float: right;
-  border: 2px red dashed; padding: 0;
+  float: left;
+  padding-top: 10px;
+  border: 1px dashed blue;
 }
 .pie_pagina{
   text-align: center;
@@ -34,6 +35,8 @@ ul.horizontal li{
   height: 30px;
   width: auto;
   padding: 10px;
+  display: block;
+
 }
 p, .titulo, .encabezado{
   padding-left: 50px;
@@ -41,7 +44,6 @@ p, .titulo, .encabezado{
 img{
   width: 40%;
   height: 40%;
-  margin-left: 50px;
 }
 h1{
   text-align: center;

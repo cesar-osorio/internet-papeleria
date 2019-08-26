@@ -13,6 +13,7 @@
     </head>
 
     <body>
+            <script src="dinamic.js"></script>
         <div class="encabezado">
             <header>
                 <ul class="horizontal">
@@ -22,41 +23,44 @@
                     <li><a href="contacto.html">Contacto</a></li>
                 </ul>
             </header>
-        </div>
-
-        <div class="titulo">
-            <h1>internet y papelería</h1>
+            <div class="titulo">
+                <h1>internet y papelería</h1>
+            </div>
         </div>
 
         <div class="contenido">
-            <h2></h2>
-            <p>Bienvenido a nuestro portal web, aquí encontrará toda la información relacionada
-                sobre nuestros productos y servicios, así como nuestros datos de contacto.
-                Esperamos nuestra web sea de mucha ayuda a sus necesidades.
-            </p>
+            <div class="descripcion">
+                <h2>Bienvenidos</h2>
+                <p>Bienvenido a nuestro portal web, aquí encontrará toda la información relacionada
+                    sobre nuestros productos y servicios, así como nuestros datos de contacto.
+                    Esperamos nuestra web sea de mucha ayuda a sus necesidades.
+                </p>
 
-            <img src="cyber-animado.jpg"/><span><img src="impresiones.jpg" /></span>
-            <img src="papeleria.jpg" /><span><img src="recargas.jpg" /></span>
+                <button onclick="prev()">Prev</button>
+                <img id="slider" src="cyber-animado.jpg">
+                <button onclick="next()">Next</button>
+                <!--<img src="cyber-animado.jpg"/><span><img src="impresiones.jpg" /></span>-->
+                <!--<img src="papeleria.jpg" /><span><img src="recargas.jpg" /></span>-->
+                </div>
+            <div class="extras">
+                    <div class="enlaces">
+                      Somos un local de comercio dedicado a proveer servicios relacionados con trámites documentales,
+                      adicionalmente contamos con equipos de cómputo para el uso de nuestros clientes.
+                      Distribuimos productos de papelería, realizamos llamadas locales, nacionales e internacionales,
+                      disponemos de servicios de recargas de saldo y paquetes a cualquier operador celular y otros.
+        
+                      Ofrecemos a su disposición 
+                    </div>
+                    <div class="archivo">
+        
+                    </div>
+                </div>
 
-        </div>
-
-        <div class="extras">
-            <div class="enlaces">
-              Somos un local de comercio dedicado a proveer servicios relacionados con trámites documentales,
-              adicionalmente contamos con equipos de cómputo para el uso de nuestros clientes.
-              Distribuimos productos de papelería, realizamos llamadas locales, nacionales e internacionales,
-              disponemos de servicios de recargas de saldo y paquetes a cualquier operador celular y otros.
-
-              Ofrecemos a su disposición 
-            </div>
-            <div class="archivo">
-
-            </div>
         </div>
 
         <div class="pie_pagina">
             <footer>
-                internet y papelería 711, dirección: cra 7 # 11 - 32 barrio centro, tel: 6656069, e-mail:
+                internet y papelería 711, dirección: cra 7 # 11 - 30 barrio centro, tel: 6656069, e-mail:
                 internet.711@hotmail.com
             </footer>
         </div>
