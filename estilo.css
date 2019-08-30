@@ -1,6 +1,6 @@
 body{
   font-family: sans-serif;
-  background-color: lightgray;
+  background-image: url(intersection.png);
 }
 ul.horizontal {
         margin-left: 100px;
@@ -11,9 +11,21 @@ ul.horizontal li{
     float:left;
     padding:0 10px;
     }
-.ecabezado, .contenido, .titulo, .pie_pagina{
+.contenido, .pie_pagina{
     margin-left: 100px;
     border: 1px dashed red;
+}
+.encabezado{
+  border: 1px dashed green;
+  margin-left: 100px;
+}
+header, .menu{
+  border: 5px double pink;
+}
+.titulo{
+  /*margin-left: 50px;*/
+  border: 1px dashed black;
+  margin: 0;
 }
 .descripcion{
   border: 1px dashed black;
